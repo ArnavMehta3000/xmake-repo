@@ -6,6 +6,11 @@ package("quill")
     set_urls("https://github.com/odygrd/quill/archive/refs/tags/$(version).tar.gz",
              "https://github.com/odygrd/quill.git")
 
+    add_versions("v8.0.0", "fa3539d361cec382d47692fd46859b790a727e5d978ec69146393c8e60263361")
+    add_versions("v7.5.0", "18846d7c50f2ffe753661b204004fac2df9143e59cf150ecbe77315bc0b232c4")
+    add_versions("v7.4.0", "749e6f75ee0889062f7135306832de5ad4d5d2e638b52316b5cd3f9af8671aff")
+    add_versions("v7.3.0", "2c8fda7dbf6a095c04a3bbfa00646349e31065f34e8260c1364c6560578ca802")
+    add_versions("v7.2.2", "6b44a10c1b553e7236164dbe90e21e999249b51e1cfb6fcf3046b01a2d906fd6")
     add_versions("v7.1.0", "109a5e593ba7b3910cec9f624df958e350c664f3153891c3e7861af9d0d2c2fb")
     add_versions("v7.0.0", "15ad108b490ae6d605ed3ca78c149db832acddacb3846bec6d3a89fff2c063e2")
     add_versions("v6.1.2", "3eea9ec9634ce0ef28a2cc766d5316c1f068feb9340cf54e40e431a9342a9220")
